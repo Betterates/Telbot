@@ -136,7 +136,7 @@ class Bot:
             self.remove_no_privilege_bar()
 
 def get_args():
-    parser = argparse.ArgumentParser(description="Welcome to Telbot 1.0")
+    parser = argparse.ArgumentParser(description="Welcome to Search Ads Bot")
     parser.add_argument('-f',help="File with groups to advertise (default is Groups.txt)",metavar='File',default="Groups.txt")
     parser.add_argument('-t',help="Minutes until Telbot terminates (default is never)",metavar='Timeout',default=None)
     parser.add_argument('-l',help="Advertisement link (default is nothing)",metavar='Link',default="")
