@@ -1,5 +1,8 @@
 import pyautogui
 
+TOKEN = "1974669956:AAEMjH1povSwzXf_aVxJQ47r35vbk0hxjns"
+Bot = searchadsbot.Searchadsbot(TOKEN)
+
 import sys, time
 import os
 import argparse
